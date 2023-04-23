@@ -3,7 +3,6 @@ using System;
 using UnityEngine;
 using Utilla;
 using HoneyLib.Utils;
-using HarmonyLib;
 
 namespace MonkeJamming
 {
@@ -55,18 +54,6 @@ namespace MonkeJamming
                 if (SkyJungle.activeSelf == true) GameObject.Find("SoundPostClouds").GetComponent<SynchedMusicController>().testPlay = true;
                 if (Mountains.activeSelf == true) GameObject.Find("SoundPostMountain").GetComponent<SynchedMusicController>().testPlay = true;
             }
-        }
-
-        [ModdedGamemodeJoin]
-        public void OnJoin(string gamemode)
-        {
-            inRoom = true;
-        }
-
-        [ModdedGamemodeLeave]
-        public void OnLeave(string gamemode)
-        {
-            inRoom = false;
         }
     }
 }
