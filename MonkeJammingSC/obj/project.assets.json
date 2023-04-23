@@ -180,24 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\logan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\daan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\logan\\source\\repos\\MonkeJamming\\MonkeJamming\\MonkeJamming.csproj",
+      "projectUniqueName": "C:\\Users\\daan\\OneDrive\\Documenten\\GitHub\\MonkeJamming\\MonkeJammingSC\\MonkeJamming.csproj",
       "projectName": "MonkeJamming",
-      "projectPath": "C:\\Users\\logan\\source\\repos\\MonkeJamming\\MonkeJamming\\MonkeJamming.csproj",
-      "packagesPath": "C:\\Users\\logan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\logan\\source\\repos\\MonkeJamming\\MonkeJamming\\obj\\",
+      "projectPath": "C:\\Users\\daan\\OneDrive\\Documenten\\GitHub\\MonkeJamming\\MonkeJammingSC\\MonkeJamming.csproj",
+      "packagesPath": "C:\\Users\\daan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\daan\\OneDrive\\Documenten\\GitHub\\MonkeJamming\\MonkeJammingSC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\daan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -205,7 +200,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -237,12 +231,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

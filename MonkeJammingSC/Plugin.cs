@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 using Utilla;
-using HoneyLib.Utils;
+using UnityEngine.XR;
 
 namespace MonkeJamming
 {
@@ -12,6 +12,7 @@ namespace MonkeJamming
     public class Plugin : BaseUnityPlugin
     {
         bool inRoom;
+        bool RightJoystick;
         GameObject city;
         GameObject forest;
         GameObject cave;
@@ -44,9 +45,10 @@ namespace MonkeJamming
 
         void FixedUpdate()
         {
-            EasyInput.UpdateInput();
+            InputDevice rightController = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+            rightController.TryGetFeatureValue(CommonUsages.primary2DAxisClick, out RightJoystick);
 
-            if (EasyInput.RightStickClick)
+            if (RightJoystick)
             {
                 if (cave.activeSelf == true) GameObject.Find("SoundPostCave").GetComponent<SynchedMusicController>().testPlay = true;
                 if(city.activeSelf == true) GameObject.Find("SoundPostCity").GetComponent<SynchedMusicController>().testPlay = true;
